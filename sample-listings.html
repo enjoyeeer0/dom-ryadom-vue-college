@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+  <head><meta charset="utf-8"><title>Пример сохранённой страницы объявлений</title></head>
+  <body>
+    <script type="application/ld+json">
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Apartment",
+          "name": "Светлая квартира рядом с парком",
+          "description": "Уютная квартира с большим окном и свежим ремонтом. Рядом парк, магазины и остановка.",
+          "image": "/photos/room-1.jpg",
+          "numberOfRooms": 2,
+          "floorSize": { "@type": "QuantitativeValue", "value": 54, "unitCode": "MTK" },
+          "address": { "@type": "PostalAddress", "addressLocality": "Центральный", "streetAddress": "ул. Лесная, 12" },
+          "offers": { "@type": "Offer", "price": 52000, "priceCurrency": "RUB" }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Apartment",
+          "name": "Студия с современной кухней",
+          "description": "Компактная студия для одного человека или пары. Есть мебель и техника.",
+          "image": "/photos/room-2.jpg",
+          "numberOfRooms": 1,
+          "floorSize": { "@type": "QuantitativeValue", "value": 32, "unitCode": "MTK" },
+          "address": { "@type": "PostalAddress", "addressLocality": "Северный", "streetAddress": "пр-т Мира, 8" },
+          "offers": { "@type": "Offer", "price": 34000, "priceCurrency": "RUB" }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Apartment",
+          "name": "Просторная квартира для семьи",
+          "description": "Тихий двор, отдельные комнаты и оборудованная кухня.",
+          "image": "/photos/room-3.jpg",
+          "numberOfRooms": 3,
+          "floorSize": { "@type": "QuantitativeValue", "value": 78, "unitCode": "MTK" },
+          "address": { "@type": "PostalAddress", "addressLocality": "Западный", "streetAddress": "ул. Солнечная, 25" },
+          "offers": { "@type": "Offer", "price": 68000, "priceCurrency": "RUB" }
+        }
+      ]
+    </script>
+  </body>
+</html>
